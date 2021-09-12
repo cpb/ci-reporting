@@ -8,6 +8,7 @@ PreCommit:
   TrailingWhitespace:
     enabled: true
 
+  # https://github.com/tcort/markdown-link-check#config-file-format
   MarkdownLinkCheck:
     enabled: true
     description: 'Checks links in markdown files.'
