@@ -1,0 +1,16 @@
+gemfile: Gemfile
+
+PreCommit:
+  Mdl:
+    enabled: true
+    on_warn: fail # Treat all warnings as failures
+
+  TrailingWhitespace:
+    enabled: true
+
+  MarkdownLinkCheck:
+    enabled: true
+    description: 'Checks links in markdown files.'
+    required_executable: 'markdown-link-check'
+    install_command: 'npm install -g markdown-link-check'
+    include: '**/*.md'
