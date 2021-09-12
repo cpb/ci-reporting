@@ -1,3 +1,4 @@
+# Further reading https://medium.com/@swayamraina/why-every-team-should-use-git-hooks-9c1c393a8a53
 gemfile: Gemfile
 
 PreCommit:
@@ -8,6 +9,7 @@ PreCommit:
   TrailingWhitespace:
     enabled: true
 
+  # https://github.com/tcort/markdown-link-check#config-file-format
   MarkdownLinkCheck:
     enabled: true
     description: 'Checks links in markdown files.'
