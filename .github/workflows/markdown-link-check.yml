@@ -1,3 +1,4 @@
+# Further reading https://geoffhudik.com/tech/2020/10/05/automate-checking-markdown-links-with-github-actions/
 name: Links in Markdown
 
 on: push
