@@ -31,3 +31,11 @@ display step details under a fold.
 ### GitHub Action Workflow - Popup Success Results
 
 ![Example successful checks](screenshots/github-actions-success-results.png?raw=true)
+
+### GitHub Action Workflow - Popup In Pull Request Running
+
+![Example in progress checks](screenshots/github-actions-in-pr-running.png?raw=true)
+
+### GitHub Action Workflow - Popup In Pull Request Success Results
+
+![Example successful checks](screenshots/github-actions-in-pr-success-results.png?raw=true)
